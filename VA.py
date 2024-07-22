@@ -14,7 +14,8 @@ voices = engine.getProperty('voices')
 
 engine.setProperty('voice',voices[0].id)
 
-NEWS_API_KEY = 'f6ffc51d049b482799a1050176a194f3'
+NEWS_API_KEY = 'YOUR API KEY'
+GEMINI_API_KEY = 'YOUR API KEY'
 
 def speak(audio):
     engine.say(audio)
